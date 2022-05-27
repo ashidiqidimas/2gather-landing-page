@@ -44,37 +44,40 @@
             </button>
         </nav>
 
-        <header class="h-screen flex flex-row-reverse justify-center pt-16 px-4 bg-gradient-to-tl from-white
+        <header class="h-screen flex flex-row tablet:flex-col justify-center pt-16 px-4 bg-gradient-to-tl from-white
         via-primaryColor-100 to-white">
-            <div class="flex justify-center items-center">
-                <div class="flex flex-col gap-6 text-center">
-                    <h1 class="font-extrabold text-textColor-primary text-h1-sm">Find Friends for<br>Anything
+            <div class="hidden tablet:flex justify-center items-center px-6 h-full pt-8 pb-2tablet:pt-8">
+                <img class="h-[24rem]" src="images/header-illustration%20(1).png" alt="">
+            </div>
+            <div class="flex justify-center items-center tablet:h-full tablet:pb-2">
+                <div class="flex flex-col gap-6 tablet:gap-8 text-center">
+                    <h1 class="font-extrabold text-textColor-primary text-h1-sm tablet:text-h1-md">Find Friends for<br>Anything
                         <span class="bg-gradient-to-br from-primaryColor-700 to-primaryColor-400 bg-clip-text text-transparent">
                         Instantly</span>
                     </h1>
-                    <p class="text-body-1 font-medium text-textColor-secondary">From hiking on top of a mountain to
+                    <p class="text-body-1-sm tablet:text-body-1-md font-medium text-textColor-secondary">From hiking on
+                        top of a mountain to
                         study together in a coffe shop, 2Gather helps you to find
                         friends for anything.</p>
-                    <div class="flex flex-col gap-4">
-                        <p class="text-headline font-bold text-textColor-primary">Get your username now<br>before
+                    <div class="flex flex-col gap-4 tablet:gap-2 tablet:items-center">
+                        <p class="text-headline font-bold text-textColor-primary">Get your username now <br
+                                class="tablet:hidden">before
                             it’s gone forever</p>
-                        <div class="flex flex-col gap-2">
-                            <button class="bg-primaryColor-700 self-stretch rounded-full h-[3.25rem]">
-                                <span class="text-white text-cta font-bold">Get My Username</span>
+                        <div class="flex flex-col tablet:flex-row gap-2 tablet:gap-6">
+                            <button class="bg-primaryColor-700 rounded-full h-[3.25rem] tablet:px-8 tablet:h-14">
+                                <span class="text-white text-cta-sm font-bold">Get My Username</span>
                             </button>
-                            <button class="h-14">
-                                <span class="text-textColor-primary text-cta font-bold">Learn More</span>
+                            <button class="h-13 tablet:h-14">
+                                <span class="text-textColor-primary text-cta-sm font-bold">Learn More</span>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
 
-            </div>
         </header>
 
-        <section class="h-screen bg-primaryColor-700"></section>
+        <section class="h-screen"></section>
         <section class="h-screen"></section>
     </body>
 </html>

@@ -10,9 +10,12 @@ module.exports = {
         fontSize: {
             'base': ['1rem', '1rem'],
             'h1-sm': ['2rem', '2.25rem'],
+            'h1-md': ['3.5rem', '3.875rem'],
             'headline': ['1.125rem', '1.375rem'],
-            'body-1': ['1.375rem', '1.75rem'],
-            'cta': ['1.25rem', '1.25rem'],
+            'body-1-sm': ['1.375rem', '1.75rem'],
+            'body-1-md': ['1.5rem', '1.75rem'],
+            'cta-sm': ['1.25rem', '1.25rem'],
+            'cta-md': ['1.5rem', '1.5rem'],
         },
         screens: {
             'tablet': '768px',
