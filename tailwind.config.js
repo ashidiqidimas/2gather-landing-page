@@ -8,7 +8,11 @@ module.exports = {
             center: true,
         },
         fontSize: {
-          'base': ['1rem', '1rem'],
+            'base': ['1rem', '1rem'],
+            'h1-sm': ['2rem', '2.25rem'],
+            'headline': ['1.125rem', '1.375rem'],
+            'body-1': ['1.375rem', '1.75rem'],
+            'cta': ['1.25rem', '1.25rem'],
         },
         screens: {
             'tablet': '768px',
@@ -17,6 +21,7 @@ module.exports = {
         colors: {
             gray: colors.slate,
             white: colors.white,
+            transparent: colors.transparent,
         },
         extend: {
             fontFamily: {
