@@ -11,6 +11,7 @@ module.exports = {
             'base': ['1rem', '1rem'],
             'h1-sm': ['2rem', '2.25rem'],
             'h1-md': ['3.5rem', '3.875rem'],
+            'h1-lg': ['4rem', '4rem'],
             'headline': ['1.125rem', '1.375rem'],
             'body-1-sm': ['1.375rem', '1.75rem'],
             'body-1-md': ['1.5rem', '1.75rem'],

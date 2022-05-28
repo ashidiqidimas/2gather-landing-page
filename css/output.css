@@ -518,76 +518,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
-.h-\[3\.25rem\] {
-  height: 3.25rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-\[100\] {
-  height: 100;
-}
-
-.h-\[50\] {
-  height: 50;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-\[24\] {
-  height: 24;
-}
-
-.h-\[25rem\] {
-  height: 25rem;
-}
-
-.h-\[16rem\] {
-  height: 16rem;
-}
-
-.h-\[20rem\] {
-  height: 20rem;
-}
-
-.h-\[30rem\] {
-  height: 30rem;
 }
 
 .h-\[24rem\] {
   height: 24rem;
 }
 
+.h-\[3\.25rem\] {
+  height: 3.25rem;
+}
+
 .w-screen {
   width: 100vw;
 }
 
-.flex-none {
-  flex: none;
-}
-
-.grow {
-  flex-grow: 1;
-}
-
 .flex-row {
   flex-direction: row;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -618,14 +566,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
-.self-center {
-  align-self: center;
-}
-
-.self-stretch {
-  align-self: stretch;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -633,11 +573,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-primaryColor-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 105 246 / var(--tw-bg-opacity));
-}
-
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-primaryColor-100 {
@@ -680,10 +615,6 @@ Ensure the default browser behavior of the `hidden` attribute.
           background-clip: text;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -705,6 +636,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -734,6 +669,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-cta-sm {
   font-size: 1.25rem;
   line-height: 1.25rem;
+}
+
+.text-\[\.875rem\] {
+  font-size: .875rem;
 }
 
 .font-bold {
@@ -772,6 +711,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: block;
   }
 
+  .tablet\:inline {
+    display: inline;
+  }
+
   .tablet\:flex {
     display: flex;
   }
@@ -780,24 +723,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
-  .tablet\:h-\[3\.25rem\] {
-    height: 3.25rem;
+  .tablet\:h-full {
+    height: 100%;
   }
 
   .tablet\:h-14 {
     height: 3.5rem;
   }
 
-  .tablet\:h-full {
-    height: 100%;
+  .tablet\:h-\[50rem\] {
+    height: 50rem;
   }
 
-  .tablet\:grow-0 {
-    flex-grow: 0;
+  .tablet\:h-\[40rem\] {
+    height: 40rem;
   }
 
-  .tablet\:grow {
-    flex-grow: 1;
+  .tablet\:h-\[25rem\] {
+    height: 25rem;
   }
 
   .tablet\:flex-row {
@@ -812,20 +755,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: center;
   }
 
-  .tablet\:gap-6 {
-    gap: 1.5rem;
+  .tablet\:gap-8 {
+    gap: 2rem;
   }
 
   .tablet\:gap-2 {
     gap: 0.5rem;
   }
 
-  .tablet\:gap-8 {
-    gap: 2rem;
-  }
-
-  .tablet\:self-stretch {
-    align-self: stretch;
+  .tablet\:gap-6 {
+    gap: 1.5rem;
   }
 
   .tablet\:px-6 {
@@ -843,12 +782,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2rem;
   }
 
-  .tablet\:pt-8 {
-    padding-top: 2rem;
-  }
-
   .tablet\:pb-2 {
     padding-bottom: 0.5rem;
+  }
+
+  .tablet\:pt-8 {
+    padding-top: 2rem;
   }
 
   .tablet\:text-h1-md {
@@ -859,5 +798,64 @@ Ensure the default browser behavior of the `hidden` attribute.
   .tablet\:text-body-1-md {
     font-size: 1.5rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .laptop\:h-full {
+    height: 100%;
+  }
+
+  .laptop\:w-full {
+    width: 100%;
+  }
+
+  .laptop\:grow {
+    flex-grow: 1;
+  }
+
+  .laptop\:flex-row {
+    flex-direction: row;
+  }
+
+  .laptop\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .laptop\:items-start {
+    align-items: flex-start;
+  }
+
+  .laptop\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .laptop\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .laptop\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .laptop\:text-left {
+    text-align: left;
+  }
+
+  .laptop\:text-h1-lg {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .laptop\:text-\[\.875rem\] {
+    font-size: .875rem;
+  }
+
+  .laptop\:text-base {
+    font-size: 1rem;
+    line-height: 1rem;
   }
 }
