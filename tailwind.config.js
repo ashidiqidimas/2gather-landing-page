@@ -14,6 +14,7 @@ module.exports = {
             'h1-lg': ['4rem', '4rem'],
             'h2-sm': ['1.75rem', '2rem'],
             'h2-md': ['2.25rem', '2.5rem'],
+            'h2-lg': ['3rem', '3.2rem'],
             'h3-sm': ['1.5rem', '1.75rem'],
             'h3-md': ['1.75rem', '2rem'],
             'body-1-sm': ['1.375rem', '1.625rem'],
