@@ -498,6 +498,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -522,12 +526,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-\[24rem\] {
-  height: 24rem;
-}
-
 .h-\[3\.25rem\] {
   height: 3.25rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .w-screen {
@@ -540,6 +544,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -566,18 +574,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
+.self-stretch {
+  align-self: stretch;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .bg-primaryColor-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 105 246 / var(--tw-bg-opacity));
-}
-
-.bg-primaryColor-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 220 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-tl {
@@ -598,6 +609,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(35 105 246 / 0));
 }
 
+.from-primaryColor-50 {
+  --tw-gradient-from: #E2F1FF;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(226 241 255 / 0));
+}
+
 .via-primaryColor-100 {
   --tw-gradient-stops: var(--tw-gradient-from), #B9DCFF, var(--tw-gradient-to, rgb(185 220 255 / 0));
 }
@@ -610,9 +626,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #229DFF;
 }
 
+.to-primaryColor-300 {
+  --tw-gradient-to: #53B0FF;
+}
+
+.to-primaryColor-50 {
+  --tw-gradient-to: #E2F1FF;
+}
+
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .px-4 {
@@ -628,6 +657,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pt-16 {
@@ -671,8 +720,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
-.text-\[\.875rem\] {
-  font-size: .875rem;
+.text-h2-sm {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.text-h3-sm {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.text-body-2-sm {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
 }
 
 .font-bold {
@@ -706,6 +766,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(40 69 117 / var(--tw-text-opacity));
 }
 
+.text-textColor-tertiary {
+  --tw-text-opacity: 1;
+  color: rgb(94 120 156 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .tablet\:block {
     display: block;
@@ -723,6 +788,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .tablet\:h-\[25rem\] {
+    height: 25rem;
+  }
+
   .tablet\:h-full {
     height: 100%;
   }
@@ -731,16 +800,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 3.5rem;
   }
 
-  .tablet\:h-\[50rem\] {
-    height: 50rem;
-  }
-
-  .tablet\:h-\[40rem\] {
-    height: 40rem;
-  }
-
-  .tablet\:h-\[25rem\] {
-    height: 25rem;
+  .tablet\:basis-1\/2 {
+    flex-basis: 50%;
   }
 
   .tablet\:flex-row {
@@ -782,12 +843,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2rem;
   }
 
-  .tablet\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
-
   .tablet\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .tablet\:pb-2 {
+    padding-bottom: 0.5rem;
   }
 
   .tablet\:text-h1-md {
@@ -799,6 +860,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.5rem;
     line-height: 1.75rem;
   }
+
+  .tablet\:text-h2-md {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .tablet\:text-h3-md {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1366px) {
@@ -806,12 +877,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 100%;
   }
 
-  .laptop\:w-full {
-    width: 100%;
+  .laptop\:h-\[100vh\] {
+    height: 100vh;
   }
 
-  .laptop\:grow {
-    flex-grow: 1;
+  .laptop\:w-full {
+    width: 100%;
   }
 
   .laptop\:flex-row {
@@ -826,19 +897,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: flex-start;
   }
 
-  .laptop\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .laptop\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .laptop\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .laptop\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .laptop\:text-left {
@@ -848,10 +914,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .laptop\:text-h1-lg {
     font-size: 4rem;
     line-height: 4rem;
-  }
-
-  .laptop\:text-\[\.875rem\] {
-    font-size: .875rem;
   }
 
   .laptop\:text-base {
