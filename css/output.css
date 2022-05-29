@@ -534,8 +534,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 5rem;
 }
 
+.h-\[25rem\] {
+  height: 25rem;
+}
+
 .w-screen {
   width: 100vw;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-row {
@@ -574,8 +582,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .self-stretch {
   align-self: stretch;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-full {
@@ -589,6 +605,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-primaryColor-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 105 246 / var(--tw-bg-opacity));
+}
+
+.bg-primaryColor-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 220 255 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-5 {
+  --tw-bg-opacity: 0.05;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
 }
 
 .bg-gradient-to-tl {
@@ -644,6 +686,11 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: contain;
 }
 
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -664,6 +711,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -674,9 +726,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-16 {
@@ -689,6 +741,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -707,7 +771,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-body-1-sm {
   font-size: 1.375rem;
-  line-height: 1.75rem;
+  line-height: 1.625rem;
 }
 
 .text-headline {
@@ -771,7 +835,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(94 120 156 / var(--tw-text-opacity));
 }
 
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 @media (min-width: 768px) {
+  .tablet\:m-16 {
+    margin: 4rem;
+  }
+
+  .tablet\:my-\[4\.5rem\] {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+  }
+
   .tablet\:block {
     display: block;
   }
@@ -800,12 +879,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 3.5rem;
   }
 
+  .tablet\:h-screen {
+    height: 100vh;
+  }
+
   .tablet\:basis-1\/2 {
     flex-basis: 50%;
   }
 
   .tablet\:flex-row {
     flex-direction: row;
+  }
+
+  .tablet\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .tablet\:flex-col {
@@ -828,6 +915,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 1.5rem;
   }
 
+  .tablet\:p-10 {
+    padding: 2.5rem;
+  }
+
   .tablet\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -843,12 +934,43 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2rem;
   }
 
+  .tablet\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .tablet\:py-\[4\.5rem\] {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .tablet\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .tablet\:pt-8 {
     padding-top: 2rem;
   }
 
   .tablet\:pb-2 {
     padding-bottom: 0.5rem;
+  }
+
+  .tablet\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .tablet\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .tablet\:text-left {
+    text-align: left;
+  }
+
+  .tablet\:text-center {
+    text-align: center;
   }
 
   .tablet\:text-h1-md {
@@ -873,6 +995,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1366px) {
+  .laptop\:inline-block {
+    display: inline-block;
+  }
+
+  .laptop\:inline {
+    display: inline;
+  }
+
+  .laptop\:hidden {
+    display: none;
+  }
+
   .laptop\:h-full {
     height: 100%;
   }
@@ -905,6 +1039,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   .laptop\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .laptop\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .laptop\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .laptop\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .laptop\:pr-28 {
+    padding-right: 7rem;
+  }
+
+  .laptop\:pr-\[5\.5rem\] {
+    padding-right: 5.5rem;
+  }
+
+  .laptop\:pl-6 {
+    padding-left: 1.5rem;
   }
 
   .laptop\:text-left {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
@@ -32,8 +32,8 @@
                 <img class="h-8" src="images/navbar-logo.png" alt="Logo of 2Gather">
             </a>
             <ul class="hidden tablet:flex text-base  flex-row gap-6 items-center">
-                <li><a href="#">Benefits</a></li>
-                <li><a href="#">Features</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#features">Features</a></li>
             </ul>
             <button class="hidden tablet:block px-6 bg-primaryColor-700 rounded-full h-11 text-base text-white font-bold">
                 Get My Username
@@ -70,18 +70,19 @@
                             <button class="bg-primaryColor-700 rounded-full h-[3.25rem] tablet:px-8 tablet:h-14">
                                 <span class="text-white text-cta-sm font-bold">Get My Username</span>
                             </button>
-                            <button class="h-13 tablet:h-14">
+                            <a class="h-13 tablet:h-14 flex justify-center items-center" href="#benefits">
                                 <span class="text-textColor-primary text-cta-sm font-bold">Learn More</span>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section id="intro" class="py-6 py-16 px-4 laptop:px-6 laptop:h-[100vh]">
+        <section id="benefits" class="py-6 py-16 px-4 laptop:px-6 laptop:h-[100vh]">
             <div class="flex flex-col justify-center text-center gap-4">
-                <h2 class="font-extrabold text-textColor-primary text-h2-sm tablet:text-h2-md inline-block">98% of Indonesians<br class="tablet:hidden"> feel
+                <h2 class="font-extrabold text-textColor-primary text-h2-sm tablet:text-h2-md inline-block">98% of
+                    Indonesians<br class="tablet:hidden"> feel
                     lonely,<br>
                     <span class="bg-gradient-to-br from-primaryColor-700 to-primaryColor-300 bg-clip-text text-transparent">
                         But You Don’t Have to.
@@ -138,6 +139,74 @@
             </div>
         </section>
 
-        <section class="h-screen bg-primaryColor-700"></section>
+        <section id="features" class="flex flex-col tablet:flex-row-reverse tablet:h-screen px-4 py-6 gap-8">
+            <div class="flex flex-col gap-4 text-center tablet:text-left tablet:basis-1/2 justify-center laptop:pr-[5.5rem]">
+                <h2 class="text-h2-sm tablet:text-h2-md font-extrabold text-textColor-primary">See Where Your Friends
+                    <br class="hidden laptop:inline">Go
+                    and Their Tour Package</h2>
+                <p class="text-body-1-sm tablet:text-body-1-md text-textColor-secondary">No more awkwardly ask your
+                    friends what tour package they used!</p>
+            </div>
+            <div class="h-[25rem] tablet:py-16 tablet:h-full tablet:basis-1/2">
+                <img class="h-full object-contain w-full object-center" src="images/feature-1.png"
+                     alt="an image of the timeline in 2Gather">
+            </div>
+        </section>
+
+        <section class="flex flex-col tablet:flex-row tablet:h-screen px-4 py-6 gap-8">
+            <div class="flex flex-col gap-4 text-center tablet:text-left tablet:basis-1/2 justify-center tablet:pl-12">
+                <h2 class="text-h2-sm tablet:text-h2-md font-extrabold text-textColor-primary">Join group trips, <br
+                        class="hidden laptop:inline-block">
+                    meet new people</h2>
+                <p class="text-body-1-sm tablet:text-body-1-md text-textColor-secondary">In 2Gather, more members in a
+                    group trip means lower prices, so go invite your friends!</p>
+            </div>
+            <div class="h-[25rem] tablet:py-16 tablet:h-full tablet:basis-1/2">
+                <img class="h-full object-contain w-full object-center" src="images/feature-2.png"
+                     alt="an image of the tour groups in 2Gather">
+            </div>
+        </section>
+
+        <section class="flex flex-col tablet:flex-row-reverse tablet:h-screen px-4 py-6 gap-8">
+            <div class="flex flex-col gap-4 text-center tablet:text-left tablet:basis-1/2 justify-center laptop:pr-[5.5rem]">
+                <h2 class="text-h2-sm tablet:text-h2-md font-extrabold text-textColor-primary">Book Tickets as<br
+                        class="hidden laptop:inline-block"> a Group Effortlessly</h2>
+                <p class="text-body-1-sm tablet:text-body-1-md text-textColor-secondary">In 2Gather, more members in a
+                    group trip means lower prices, so go invite your friends!</p>
+            </div>
+            <div class="h-[25rem] tablet:py-16 tablet:h-full tablet:basis-1/2">
+                <img class="h-full object-contain w-full object-center" src="images/feature-3.png"
+                     alt="an image of the tour package screen in 2Gather">
+            </div>
+        </section>
+
+        <section class="flex flex-col tablet:flex-row tablet:h-screen px-4 py-6 gap-8">
+            <div class="flex flex-col gap-4 text-center tablet:text-left tablet:basis-1/2 justify-center tablet:pl-12">
+                <h2 class="text-h2-sm tablet:text-h2-md font-extrabold text-textColor-primary">Split bills, but <br
+                        class="hidden laptop:inline-block">
+                    without fighting</h2>
+                <p class="text-body-1-sm tablet:text-body-1-md text-textColor-secondary">We automatically bill everyone
+                    for their part, <br class="hidden laptop:inline-block">so you can focus on creating memories</p>
+            </div>
+            <div class="h-[25rem] tablet:py-16 tablet:h-full tablet:basis-1/2">
+                <img class="h-full object-contain w-full object-center" src="images/feature-4.png"
+                     alt="an image of the tour groups in 2Gather">
+            </div>
+        </section>
+
+        <section class="flex flex-col tablet:flex-row-reverse tablet:h-screen px-4 py-6 gap-8">
+            <div class="flex flex-col gap-4 text-center tablet:text-left tablet:basis-1/2 justify-center laptop:pr-[5.5rem]">
+                <h2 class="text-h2-sm tablet:text-h2-md font-extrabold text-textColor-primary">Travel Invitation,
+                    <br class="hidden laptop:inline-block">
+                    Right in Your Timeline</h2>
+                <p class="text-body-1-sm tablet:text-body-1-md text-textColor-secondary">Never miss your friends
+                    invitation</p>
+            </div>
+            <div class="h-[25rem] tablet:py-16 tablet:h-full tablet:basis-1/2">
+                <img class="h-full object-contain w-full object-center" src="images/feature-5.png"
+                     alt="an image of the tour package screen in 2Gather">
+            </div>
+        </section>
+
     </body>
 </html>
