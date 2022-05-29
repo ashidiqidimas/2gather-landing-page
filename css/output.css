@@ -590,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-self: stretch;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -875,6 +879,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 3.5rem;
   }
 
+  .tablet\:h-screen {
+    height: 100vh;
+  }
+
   .tablet\:basis-1\/2 {
     flex-basis: 50%;
   }
@@ -949,8 +957,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 0.5rem;
   }
 
+  .tablet\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .tablet\:pl-12 {
+    padding-left: 3rem;
+  }
+
   .tablet\:text-left {
     text-align: left;
+  }
+
+  .tablet\:text-center {
+    text-align: center;
   }
 
   .tablet\:text-h1-md {
@@ -975,6 +995,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1366px) {
+  .laptop\:inline-block {
+    display: inline-block;
+  }
+
+  .laptop\:inline {
+    display: inline;
+  }
+
+  .laptop\:hidden {
+    display: none;
+  }
+
   .laptop\:h-full {
     height: 100%;
   }
@@ -1007,6 +1039,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   .laptop\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .laptop\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .laptop\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .laptop\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .laptop\:pr-28 {
+    padding-right: 7rem;
+  }
+
+  .laptop\:pr-\[5\.5rem\] {
+    padding-right: 5.5rem;
+  }
+
+  .laptop\:pl-6 {
+    padding-left: 1.5rem;
   }
 
   .laptop\:text-left {
