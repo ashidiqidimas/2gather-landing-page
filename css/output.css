@@ -602,35 +602,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 1rem;
 }
 
-.bg-primaryColor-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(35 105 246 / var(--tw-bg-opacity));
-}
-
-.bg-primaryColor-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 220 255 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-60 {
-  --tw-bg-opacity: 0.6;
+.bg-primaryColor-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 105 246 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-5 {
-  --tw-bg-opacity: 0.05;
-}
-
-.bg-opacity-20 {
-  --tw-bg-opacity: 0.2;
-}
-
-.bg-opacity-10 {
-  --tw-bg-opacity: 0.1;
+.bg-opacity-75 {
+  --tw-bg-opacity: 0.75;
 }
 
 .bg-gradient-to-tl {
@@ -726,11 +709,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pt-16 {
   padding-top: 4rem;
 }
@@ -741,18 +719,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -842,15 +808,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
-  .tablet\:m-16 {
-    margin: 4rem;
-  }
-
-  .tablet\:my-\[4\.5rem\] {
-    margin-top: 4.5rem;
-    margin-bottom: 4.5rem;
-  }
-
   .tablet\:block {
     display: block;
   }
@@ -915,10 +872,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 1.5rem;
   }
 
-  .tablet\:p-10 {
-    padding: 2.5rem;
-  }
-
   .tablet\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -934,16 +887,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2rem;
   }
 
-  .tablet\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .tablet\:py-\[4\.5rem\] {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-  }
-
   .tablet\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -957,20 +900,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 0.5rem;
   }
 
-  .tablet\:pl-6 {
-    padding-left: 1.5rem;
-  }
-
   .tablet\:pl-12 {
     padding-left: 3rem;
   }
 
   .tablet\:text-left {
     text-align: left;
-  }
-
-  .tablet\:text-center {
-    text-align: center;
   }
 
   .tablet\:text-h1-md {
@@ -1001,10 +936,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .laptop\:inline {
     display: inline;
-  }
-
-  .laptop\:hidden {
-    display: none;
   }
 
   .laptop\:h-full {
@@ -1041,28 +972,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1.5rem;
   }
 
-  .laptop\:pr-4 {
-    padding-right: 1rem;
-  }
-
-  .laptop\:pr-12 {
-    padding-right: 3rem;
-  }
-
-  .laptop\:pr-20 {
-    padding-right: 5rem;
-  }
-
-  .laptop\:pr-28 {
-    padding-right: 7rem;
-  }
-
   .laptop\:pr-\[5\.5rem\] {
     padding-right: 5.5rem;
-  }
-
-  .laptop\:pl-6 {
-    padding-left: 1.5rem;
   }
 
   .laptop\:text-left {
