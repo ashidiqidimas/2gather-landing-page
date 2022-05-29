@@ -674,6 +674,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -872,8 +877,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 100%;
   }
 
+  .laptop\:h-\[100vh\] {
+    height: 100vh;
+  }
+
   .laptop\:w-full {
     width: 100%;
+  }
+
+  .laptop\:flex-row {
+    flex-direction: row;
   }
 
   .laptop\:flex-row-reverse {
@@ -887,6 +900,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .laptop\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .laptop\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .laptop\:text-left {
