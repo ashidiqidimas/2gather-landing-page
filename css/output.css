@@ -546,6 +546,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-grow: 0;
 }
 
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -818,6 +822,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .tablet\:h-14 {
     height: 3.5rem;
+  }
+
+  .tablet\:basis-1\/2 {
+    flex-basis: 50%;
   }
 
   .tablet\:flex-row {
