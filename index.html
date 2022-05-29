@@ -25,23 +25,32 @@
 
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/output.css">
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <nav class="fixed w-screen top-0 px-4 py-2 tablet:px-6 tablet:py-4 justify-between flex flex-row backdrop-blur-sm bg-white bg-opacity-75">
-            <a href="#" class="py-2">
-                <img class="h-8" src="images/navbar-logo.png" alt="Logo of 2Gather">
-            </a>
-            <ul class="hidden tablet:flex text-base  flex-row gap-6 items-center">
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#features">Features</a></li>
-            </ul>
-            <button class="hidden tablet:block px-6 bg-primaryColor-700 rounded-full h-11 text-base text-white font-bold">
-                Get My Username
-            </button>
+        <nav class="fixed w-screen top-0 px-4 py-2 tablet:px-6 tablet:py-4 backdrop-blur-sm bg-white flex flex-col bg-opacity-75">
+            <div class="justify-between flex flex-row ">
+                <a href="#" class="py-2">
+                    <img class="h-8" src="images/navbar-logo.png" alt="Logo of 2Gather">
+                </a>
+                <ul class="hidden tablet:flex text-base  flex-row gap-6 items-center">
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+                <button class="hidden tablet:block px-6 bg-primaryColor-700 rounded-full h-11 text-base text-white font-bold">
+                    Get My Username
+                </button>
 
-            <button class="block tablet:hidden">
-                <img src="images/menu.png" alt="menu button">
-            </button>
+                <button class="block tablet:hidden mobile-menu-button">
+                    <img id="menu-button-img" src="images/menu.png" alt="menu button">
+                </button>
+            </div>
+            <div class="hidden mobile-menu">
+                <ul class="">
+                    <li><a href="#benefits" class="block text-cta-sm py-4 transition duration-300">Benefits</a></li>
+                    <li><a href="#features" class="block text-cta-sm py-4 transition duration-300">Features</a></li>
+                </ul>
+            </div>
         </nav>
 
         <header class="h-screen flex flex-row laptop:flex-row-reverse tablet:flex-col justify-center pt-16 px-4 bg-gradient-to-tl from-white
