@@ -618,6 +618,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.75rem;
 }
 
+.border-none {
+  border-style: none;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -878,10 +882,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .placeholder\:text-textColor-secondary::placeholder {
   --tw-text-opacity: 1;
   color: rgb(40 69 117 / var(--tw-text-opacity));
-}
-
-.focus\:border-none:focus {
-  border-style: none;
 }
 
 .focus\:bg-primaryColor-700:focus {
