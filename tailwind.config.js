@@ -16,7 +16,7 @@ module.exports = {
             'h2-md': ['2.25rem', '2.5rem'],
             'h3-sm': ['1.5rem', '1.75rem'],
             'h3-md': ['1.75rem', '2rem'],
-            'body-1-sm': ['1.375rem', '1.75rem'],
+            'body-1-sm': ['1.375rem', '1.625rem'],
             'body-1-md': ['1.5rem', '1.75rem'],
             'headline': ['1.125rem', '1.375rem'],
             'body-2-sm': ['1.125rem', '1.375rem'],

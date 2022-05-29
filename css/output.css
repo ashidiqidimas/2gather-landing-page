@@ -534,8 +534,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 5rem;
 }
 
+.h-\[25rem\] {
+  height: 25rem;
+}
+
 .w-screen {
   width: 100vw;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-row {
@@ -574,6 +582,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -589,6 +601,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-primaryColor-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 105 246 / var(--tw-bg-opacity));
+}
+
+.bg-primaryColor-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 220 255 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-5 {
+  --tw-bg-opacity: 0.05;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
 }
 
 .bg-gradient-to-tl {
@@ -644,6 +682,11 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: contain;
 }
 
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -664,6 +707,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -674,9 +722,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-16 {
@@ -707,7 +755,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-body-1-sm {
   font-size: 1.375rem;
-  line-height: 1.75rem;
+  line-height: 1.625rem;
 }
 
 .text-headline {
@@ -769,6 +817,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-textColor-tertiary {
   --tw-text-opacity: 1;
   color: rgb(94 120 156 / var(--tw-text-opacity));
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 @media (min-width: 768px) {
