@@ -33,9 +33,9 @@ async function submitForm(e) {
             email: email,
         });
         console.log("Document written with ID: ", docRef.id, " and value: ", username, email);
-        alert("success")
+        alert(`Congratulation you just reserved ${username}!`);
     } catch (e) {
-        alert("Error adding document: ${e}");
+        alert(`Error adding document: ${e}`);
         console.error("Error adding document: ", e);
     }
 }
