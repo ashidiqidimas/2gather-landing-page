@@ -2,7 +2,7 @@
   "name": "2gather-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "mobile-menu.js",
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./css/output.css",
     "watch": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch"
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "firebase": "^9.8.2"
   }
 }

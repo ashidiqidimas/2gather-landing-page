@@ -24,8 +24,10 @@
               rel="stylesheet">
 
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="css/output.css">
-        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="css/build.css">
+        <script src="mobile-menu.js" defer></script>
+        <script src="https://firebase.google.com/docs/web/setup#available-libraries"></script>
+        <script type="module" src="DBService.js" defer></script>
     </head>
     <body>
         <nav class="fixed w-screen top-0 px-4 py-2 tablet:px-6 tablet:py-4 backdrop-blur-sm bg-white flex flex-col bg-opacity-75">
@@ -230,7 +232,7 @@
                     Goodbye to Loneliness</h2>
                 <p class="text-textColor-secondary text-body-1-sm tablet:text-body-1-md">We are still in early
                     development. Reserve your username and be notified when we launched.</p>
-                <form class="flex flex-col gap-4 text-left w-full">
+                <form id="sign-up-form" class="flex flex-col gap-4 text-left w-full">
                     <div>
                         <label for="fUsername"
                                class="text-headline font-semibold text-textColor-primary">Username:</label>
@@ -239,11 +241,10 @@
                     </div>
                     <div>
                         <label for="fEmail" class="text-headline font-semibold text-textColor-primary">Email:</label>
-                        <input type="text" id="fEmail" name="fEmail" placeholder="youremail@gmail.com"
+                        <input type="email" id="fEmail" name="fEmail" placeholder="youremail@gmail.com"
                                class="w-full p-4 bg-primaryColor-100 rounded-xl placeholder:text-textColor-secondary text-headline focus:bg-primaryColor-700 border-none focus:text-white">
                     </div>
-                    <input type="submit" value="Claim My Username"
-                           class="bg-gradient-to-br from-primaryColor-500 to-primaryColor-700 py-4 text-white text-cta-sm font-semibold rounded-full cursor-pointer">
+                    <button type="submit" class="bg-gradient-to-br from-primaryColor-500 to-primaryColor-700 py-4 text-white text-cta-sm font-semibold rounded-full cursor-pointer">Claim My Username</button>
                 </form>
             </div>
             <div class="hidden tablet:block basis-2/6">
